@@ -24,7 +24,7 @@ The framework of the proposed dynamic residual self-attention network (DRSAN). T
 ### Dynamic Residual Attention Group
 <p align="center"><img src="figures/buildingblock.PNG" width="700"></p>
 
-The signal flow graph inside the DRAG, and the function of the n-th DRSA. The DRSA outputs the n-th residual feature (f^{n}) as a combination of f^{n}_{d} (addition of previous features with DRA) and alpha (RSA formed by the RB and sigmoid). The DRM determines the DRA that reflects the input properties.
+The signal flow graph inside the DRAG, and the function of the n-th DRSA. The DRSA outputs the n-th residual feature (f_{n}) as a combination of f^{n}_{d} (addition of previous features with DRA) and alpha (RSA formed by the RB and sigmoid). The DRM determines the DRA that reflects the input properties.
 
 ## Experimental Results
 
