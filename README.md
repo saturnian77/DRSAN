@@ -19,21 +19,21 @@ Deep learning methods have shown outstanding performance in many applications, i
 ### Overall Structure
 <p align="center"><img src="figures/structure.PNG" width="700"></p>
 
-The framework of the proposed dynamic residual self-attention network (DRSAN). The upper figure shows that it consists of convolution layers (Conv), an upsampling network (Upsampler), and our basic building block DRAGs (dynamic residual attention groups). The lower figure describes the DRAG, which consists of an RB (residual block), a DRSA (dynamic residual self-attention), a DRM (dynamic residual module), a concatenation (Concat), and a 1  1 convolution, where the RB is structured as a cascade of Convs and PReLUs (parametric rectified linear units)
+The framework of the proposed dynamic residual self-attention network (DRSAN). The upper figure shows that it consists of convolution layers (Conv), an upsampling network (Upsampler), and our basic building block DRAGs (dynamic residual attention groups). The lower figure describes the DRAG, which consists of an RB (residual block), a DRSA (dynamic residual self-attention), a DRM (dynamic residual module), a concatenation (Concat), and a 1x1 convolution, where the RB is structured as a cascade of Convs and PReLUs (parametric rectified linear units)
 
 ### Dynamic Residual Attention Group
-<p align="center"><img src="figures/buildingblock.PNG" width="350"></p>
+<p align="center"><img src="figures/buildingblock.PNG" width="700"></p>
 
 The signal flow graph inside the DRAG, and the function of the n-th DRSA. The DRSA outputs the n-th residual feature (f^{n}) as a combination of f^{n}_{d} (addition of previous features with DRA) and alpha (RSA formed by the RB and sigmoid). The DRM determines the DRA that reflects the input properties.
 
 ## Experimental Results
 
 ### Model Analysis
-<p align="center"><img src="figures/patchgroup.PNG" width="450"></p>
+<p align="center"><img src="figures/patchgroup.PNG" width="700"></p>
 
 The activation values of DRA in the 1st DRAG using different patches as input. Patches with similar DRA values are grouped. Patches are collected from images of benchmark datasets (x2).
 
-<p align="center"><img src="figures/recon.PNG" width="450"></p>
+<p align="center"><img src="figures/recon.PNG" width="700"></p>
 
 The reconstructed images using DRA from different patches and their visualized difference maps. The difference map is calculated on the Y channel of the image and its original SR image. Patches are collected from images of benchmark datasets (x2).
 
