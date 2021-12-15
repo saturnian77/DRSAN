@@ -4,6 +4,7 @@
 
 Karam Park, Jae Woong Soh, and Nam Ik Cho
 Accepted for publication as a regular paper in the IEEE Transactions on Multimedia
+
 [Paper] https://arxiv.org/abs/2112.04488
 
 ## Environments
