@@ -73,3 +73,17 @@ python test.py --gpu [GPU_number] --model [Model_name] --scale [xN] --dataset [D
 python test.py --gpu 0 --model 32s --scale x2 --dataset Set5
 
 ```
+
+### Citation
+```
+@article{park2021dynamic,
+  author={Park, Karam and Soh, Jae Woong and Cho, Nam Ik},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Dynamic Residual Self-Attention Network for Lightweight Single Image Super-Resolution}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMM.2021.3134172}}
+```
+
