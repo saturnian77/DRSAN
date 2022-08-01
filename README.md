@@ -37,7 +37,7 @@ The signal flow graph inside the DRAG, and the function of the n-th DRSA. The DR
 
 The activation values of DRA in the 1st DRAG using different patches as input. Patches with similar DRA values are grouped. Patches are collected from images of benchmark datasets (x2).
 
-<p align="center"><img src="figures/recon.PNG" width="700"></p>
+<p align="center"><img src="figures/recon2.PNG" width="700"></p>
 
 The reconstructed images using DRA from different patches and their visualized difference maps. The difference map is calculated on the Y channel of the image and its original SR image. Patches are collected from images of benchmark datasets (x2).
 
